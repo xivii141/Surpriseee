@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entii BOGRA!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Yamouna (Yayo, Moztii, Hobhyeti, Canim, Mon Âme)</h1>
+    </header>
+    <div class="content">
+        <h2>Entii BOGRA!</h2>
+        <p>Click the cow emoji for a funny surprise!</p>
+        <button class="emoji-btn">🐄</button>
+        <p class="message" style="display:none;">You are the cutest BOGRA ever! ❤️</p>
+    </div>
+    <footer>
+        <p>Secret code: 110605</p>
+    </footer>
+    <script>
+        document.querySelector('.emoji-btn').addEventListener('click', () => {
+            document.querySelector('.message').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
