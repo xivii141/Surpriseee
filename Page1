@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamouna's Special Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, Yamouna (Yayo, Moztii, Hobhyeti, Canim, Mon Âme)</h1>
+    </header>
+    <div class="content">
+        <h2>Special Birthday Surprise!</h2>
+        <img src="your-photo.jpg" alt="Yamouna and Me" class="photo">
+        <p>Hey Yayo, I'm so happy to have you in my life. You mean the world to me. Enjoy this birthday surprise and have fun!</p>
+    </div>
+    <footer>
+        <p>Secret code: 110605</p>
+    </footer>
+</body>
+</html>
