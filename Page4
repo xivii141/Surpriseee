@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Yamouna's Birthday Quiz</h1>
+    </header>
+    <div class="content">
+        <h2>Question 1:</h2>
+        <p>Who is the most amazing person? (Select the correct answer!)</p>
+        <button class="answer" data-correct="true">Yomna</button>
+        <button class="answer">Yamouna</button>
+        <button class="answer">Yayo</button>
+    </div>
+    <footer>
+        <p>Secret code: 110605</p>
+    </footer>
+    <script>
+        const answers = document.querySelectorAll('.answer');
+        answers.forEach(answer => {
+            answer.addEventListener('click', function () {
+                if (this.dataset.correct) {
+                    this.style.backgroundColor = 'green';
+                } else {
+                    this.style.backgroundColor = 'red';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
